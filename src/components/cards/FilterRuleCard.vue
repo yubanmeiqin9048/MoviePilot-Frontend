@@ -61,6 +61,13 @@ const selectFilterOptions = ref<{ [key: string]: string }[]>([
   { title: '排除: SDR', value: ' !SDR ' },
   { title: '效果: 3D', value: ' 3D ' },
   { title: '排除: 3D', value: ' !3D ' },
+  { title: '来源：MEWATCH', value: ' MEWATCH ' },
+  { title: '来源：KKTV', value: ' KKTV ' },
+  { title: '来源：NF', value: ' NF ' },
+  { title: '来源：BG', value: ' BG ' },
+  { title: '来源：CR', value: ' CR ' },
+  { title: '来源：FIRDAY', value: ' FIRDAY ' },
+  { title: '来源：BAHA', value: ' BAHA ' },
 ])
 </script>
 
